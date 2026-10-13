@@ -1,15 +1,15 @@
 /* Dimakatso Masake - Personal Portfolio */
 
 :root {
-    color-scheme: light;
+    color-scheme: dark;
 
-    --color-background: #f8f5ef;
-    --color-surface: #fffdf9;
-    --color-text: #282723;
-    --color-muted: #6d6961;
-    --color-accent: #b85c38;
-    --color-accent-hover: #914328;
-    --color-border: #e5ddd2;
+    --color-background: #111214;
+    --color-surface: #28292D;
+    --color-text: #F5F5F5;
+    --color-muted: #B1B1B8;
+    --color-accent: #FF861A;
+    --color-accent-hover: #FF9F43;
+    --color-border: #414247;
 
     --font-body: Arial, Helvetica, sans-serif;
     --content-width: 1080px;
