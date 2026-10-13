@@ -1,0 +1,46 @@
+/* Dimakatso Masake - Personal Portfolio */
+
+:root {
+    color-scheme: light;
+
+    --color-background: #f8f5ef;
+    --color-surface: #fffdf9;
+    --color-text: #282723;
+    --color-muted: #6d6961;
+    --color-accent: #b85c38;
+    --color-accent-hover: #914328;
+    --color-border: #e5ddd2;
+
+    --font-body: Arial, Helvetica, sans-serif;
+    --content-width: 1080px;
+    --radius-card: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: 1.7;
+}
+
+a {
+    color: var(--color-accent);
+}
+
+a:hover {
+    color: var(--color-accent-hover);
+}
+
+a:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 4px;
+}
