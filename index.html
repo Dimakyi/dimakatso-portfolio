@@ -33,14 +33,27 @@
         </section>
 
         <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I have completed my software development coursework at
-                WeThinkCode_ and am awaiting a date for my final EISA assessment
-                toward my QCTO qualification. I am eager to strengthen my
-                technical skills through hands-on projects and real-world
-                experience.
-            </p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I have completed my software development coursework at
+                        WeThinkCode_ and am awaiting a date for my final EISA assessment
+                        toward my QCTO qualification. I am eager to strengthen my
+                        technical skills through hands-on projects and real-world
+                        experience.
+                    </p>
+                </div>
+
+                <img
+                    class="about-photo"
+                    src="images/dimakatso-headshot.png"
+                    alt="Portrait of Dimakatso Masake"
+                    width="400"
+                    height="500"
+                    loading="lazy"
+                >
+            </div>
         </section>
 
         <section id="skills">
@@ -49,18 +62,37 @@
 
             <ul>
                 <li>
-                    <strong>Programming</strong>
-                    <span>Python</span>
+                    <span class="skill-symbol" aria-hidden="true">Py</span>
+                    <strong>Python</strong>
+                    <span>Programming</span>
                 </li>
                 <li>
-                    <strong>Web Development</strong>
-                    <span>HTML, CSS and JavaScript</span>
+                    <span class="skill-symbol" aria-hidden="true">&lt;/&gt;</span>
+                    <strong>HTML &amp; CSS</strong>
+                    <span>Web development</span>
                 </li>
                 <li>
-                    <strong>Tools &amp; Practices</strong>
-                    <span>Git, GitHub, API development and testing</span>
+                    <span class="skill-symbol" aria-hidden="true">JS</span>
+                    <strong>JavaScript</strong>
+                    <span>Web interactivity</span>
+                </li>
+                <li>
+                    <span class="skill-symbol" aria-hidden="true">⑂</span>
+                    <strong>Git &amp; GitHub</strong>
+                    <span>Version control</span>
+                </li>
+                <li>
+                    <span class="skill-symbol" aria-hidden="true">API</span>
+                    <strong>API Development</strong>
+                    <span>Backend services</span>
+                </li>
+                <li>
+                    <span class="skill-symbol" aria-hidden="true">✓</span>
+                    <strong>Testing</strong>
+                    <span>Automated checks</span>
                 </li>
             </ul>
+
         </section>
 
         <section id="projects">
@@ -77,6 +109,10 @@
                     The project includes automated tests and supports local
                     development with Docker Compose.
                 </p>
+		<p>
+	            <strong>Testing:</strong> 59 automated tests passed
+		    locally using Python 3.12.
+		</p>
                 <a href="https://github.com/Dimakyi/self-weigh-service"
                    target="_blank"
                    rel="noopener noreferrer">
@@ -120,5 +156,7 @@
     <footer>
         <p>&copy; 2026 Dimakatso Masake. Portfolio built with HTML, CSS, and JavaScript.</p>
     </footer>
+
+<script src="effects.js" defer></script>
 </body>
 </html>
