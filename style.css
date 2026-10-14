@@ -26,7 +26,11 @@ html {
 
 body {
     margin: 0;
-    background: var(--color-background);
+    background-color: var(--color-background);
+    background-image: url("images/gotrolly-sketch-background.png");
+    background-repeat: no-repeat;
+    background-position: left 5% top 8rem;
+    background-size: min(48vw, 580px);
     color: var(--color-text);
     font-family: var(--font-body);
     line-height: 1.7;
